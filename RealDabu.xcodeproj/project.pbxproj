@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B858A52C27FD940E002C7FF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B858A52B27FD940E002C7FF9 /* AppDelegate.swift */; };
+		B858A52E27FD940E002C7FF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B858A52D27FD940E002C7FF9 /* SceneDelegate.swift */; };
+		B858A53027FD940E002C7FF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B858A52F27FD940E002C7FF9 /* ViewController.swift */; };
+		B858A53327FD940E002C7FF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B858A53127FD940E002C7FF9 /* Main.storyboard */; };
+		B858A53527FD940F002C7FF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B858A53427FD940F002C7FF9 /* Assets.xcassets */; };
+		B858A53827FD940F002C7FF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B858A53627FD940F002C7FF9 /* LaunchScreen.storyboard */; };
+		B858A54327FD940F002C7FF9 /* RealDabuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B858A54227FD940F002C7FF9 /* RealDabuTests.swift */; };
+		B858A54D27FD940F002C7FF9 /* RealDabuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B858A54C27FD940F002C7FF9 /* RealDabuUITests.swift */; };
+		B858A54F27FD940F002C7FF9 /* RealDabuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B858A54E27FD940F002C7FF9 /* RealDabuUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B858A53F27FD940F002C7FF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B858A52027FD940E002C7FF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B858A52727FD940E002C7FF9;
+			remoteInfo = RealDabu;
+		};
+		B858A54927FD940F002C7FF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B858A52027FD940E002C7FF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B858A52727FD940E002C7FF9;
+			remoteInfo = RealDabu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B858A52827FD940E002C7FF9 /* RealDabu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealDabu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B858A52B27FD940E002C7FF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B858A52D27FD940E002C7FF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B858A52F27FD940E002C7FF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B858A53227FD940E002C7FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B858A53427FD940F002C7FF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B858A53727FD940F002C7FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B858A53927FD940F002C7FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B858A53E27FD940F002C7FF9 /* RealDabuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealDabuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B858A54227FD940F002C7FF9 /* RealDabuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealDabuTests.swift; sourceTree = "<group>"; };
+		B858A54827FD940F002C7FF9 /* RealDabuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealDabuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B858A54C27FD940F002C7FF9 /* RealDabuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealDabuUITests.swift; sourceTree = "<group>"; };
+		B858A54E27FD940F002C7FF9 /* RealDabuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealDabuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B858A52527FD940E002C7FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B858A53B27FD940F002C7FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B858A54527FD940F002C7FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B858A51F27FD940E002C7FF9 = {
+			isa = PBXGroup;
+			children = (
+				B858A52A27FD940E002C7FF9 /* RealDabu */,
+				B858A54127FD940F002C7FF9 /* RealDabuTests */,
+				B858A54B27FD940F002C7FF9 /* RealDabuUITests */,
+				B858A52927FD940E002C7FF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B858A52927FD940E002C7FF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B858A52827FD940E002C7FF9 /* RealDabu.app */,
+				B858A53E27FD940F002C7FF9 /* RealDabuTests.xctest */,
+				B858A54827FD940F002C7FF9 /* RealDabuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B858A52A27FD940E002C7FF9 /* RealDabu */ = {
+			isa = PBXGroup;
+			children = (
+				B858A52B27FD940E002C7FF9 /* AppDelegate.swift */,
+				B858A52D27FD940E002C7FF9 /* SceneDelegate.swift */,
+				B858A52F27FD940E002C7FF9 /* ViewController.swift */,
+				B858A53127FD940E002C7FF9 /* Main.storyboard */,
+				B858A53427FD940F002C7FF9 /* Assets.xcassets */,
+				B858A53627FD940F002C7FF9 /* LaunchScreen.storyboard */,
+				B858A53927FD940F002C7FF9 /* Info.plist */,
+			);
+			path = RealDabu;
+			sourceTree = "<group>";
+		};
+		B858A54127FD940F002C7FF9 /* RealDabuTests */ = {
+			isa = PBXGroup;
+			children = (
+				B858A54227FD940F002C7FF9 /* RealDabuTests.swift */,
+			);
+			path = RealDabuTests;
+			sourceTree = "<group>";
+		};
+		B858A54B27FD940F002C7FF9 /* RealDabuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B858A54C27FD940F002C7FF9 /* RealDabuUITests.swift */,
+				B858A54E27FD940F002C7FF9 /* RealDabuUITestsLaunchTests.swift */,
+			);
+			path = RealDabuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B858A52727FD940E002C7FF9 /* RealDabu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B858A55227FD940F002C7FF9 /* Build configuration list for PBXNativeTarget "RealDabu" */;
+			buildPhases = (
+				B858A52427FD940E002C7FF9 /* Sources */,
+				B858A52527FD940E002C7FF9 /* Frameworks */,
+				B858A52627FD940E002C7FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealDabu;
+			productName = RealDabu;
+			productReference = B858A52827FD940E002C7FF9 /* RealDabu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B858A53D27FD940F002C7FF9 /* RealDabuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B858A55527FD940F002C7FF9 /* Build configuration list for PBXNativeTarget "RealDabuTests" */;
+			buildPhases = (
+				B858A53A27FD940F002C7FF9 /* Sources */,
+				B858A53B27FD940F002C7FF9 /* Frameworks */,
+				B858A53C27FD940F002C7FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B858A54027FD940F002C7FF9 /* PBXTargetDependency */,
+			);
+			name = RealDabuTests;
+			productName = RealDabuTests;
+			productReference = B858A53E27FD940F002C7FF9 /* RealDabuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B858A54727FD940F002C7FF9 /* RealDabuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B858A55827FD940F002C7FF9 /* Build configuration list for PBXNativeTarget "RealDabuUITests" */;
+			buildPhases = (
+				B858A54427FD940F002C7FF9 /* Sources */,
+				B858A54527FD940F002C7FF9 /* Frameworks */,
+				B858A54627FD940F002C7FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B858A54A27FD940F002C7FF9 /* PBXTargetDependency */,
+			);
+			name = RealDabuUITests;
+			productName = RealDabuUITests;
+			productReference = B858A54827FD940F002C7FF9 /* RealDabuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B858A52027FD940E002C7FF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					B858A52727FD940E002C7FF9 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					B858A53D27FD940F002C7FF9 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = B858A52727FD940E002C7FF9;
+					};
+					B858A54727FD940F002C7FF9 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = B858A52727FD940E002C7FF9;
+					};
+				};
+			};
+			buildConfigurationList = B858A52327FD940E002C7FF9 /* Build configuration list for PBXProject "RealDabu" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B858A51F27FD940E002C7FF9;
+			productRefGroup = B858A52927FD940E002C7FF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B858A52727FD940E002C7FF9 /* RealDabu */,
+				B858A53D27FD940F002C7FF9 /* RealDabuTests */,
+				B858A54727FD940F002C7FF9 /* RealDabuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B858A52627FD940E002C7FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B858A53827FD940F002C7FF9 /* LaunchScreen.storyboard in Resources */,
+				B858A53527FD940F002C7FF9 /* Assets.xcassets in Resources */,
+				B858A53327FD940E002C7FF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B858A53C27FD940F002C7FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B858A54627FD940F002C7FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B858A52427FD940E002C7FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B858A53027FD940E002C7FF9 /* ViewController.swift in Sources */,
+				B858A52C27FD940E002C7FF9 /* AppDelegate.swift in Sources */,
+				B858A52E27FD940E002C7FF9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B858A53A27FD940F002C7FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B858A54327FD940F002C7FF9 /* RealDabuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B858A54427FD940F002C7FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B858A54F27FD940F002C7FF9 /* RealDabuUITestsLaunchTests.swift in Sources */,
+				B858A54D27FD940F002C7FF9 /* RealDabuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B858A54027FD940F002C7FF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B858A52727FD940E002C7FF9 /* RealDabu */;
+			targetProxy = B858A53F27FD940F002C7FF9 /* PBXContainerItemProxy */;
+		};
+		B858A54A27FD940F002C7FF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B858A52727FD940E002C7FF9 /* RealDabu */;
+			targetProxy = B858A54927FD940F002C7FF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B858A53127FD940E002C7FF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B858A53227FD940E002C7FF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B858A53627FD940F002C7FF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B858A53727FD940F002C7FF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B858A55027FD940F002C7FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B858A55127FD940F002C7FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B858A55327FD940F002C7FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GHNZ6R7D9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RealDabu/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bagus-Wirawan.RealDabu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B858A55427FD940F002C7FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GHNZ6R7D9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RealDabu/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bagus-Wirawan.RealDabu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B858A55627FD940F002C7FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GHNZ6R7D9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bagus-Wirawan.RealDabuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealDabu.app/RealDabu";
+			};
+			name = Debug;
+		};
+		B858A55727FD940F002C7FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GHNZ6R7D9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bagus-Wirawan.RealDabuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealDabu.app/RealDabu";
+			};
+			name = Release;
+		};
+		B858A55927FD940F002C7FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GHNZ6R7D9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bagus-Wirawan.RealDabuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealDabu;
+			};
+			name = Debug;
+		};
+		B858A55A27FD940F002C7FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GHNZ6R7D9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bagus-Wirawan.RealDabuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealDabu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B858A52327FD940E002C7FF9 /* Build configuration list for PBXProject "RealDabu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B858A55027FD940F002C7FF9 /* Debug */,
+				B858A55127FD940F002C7FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B858A55227FD940F002C7FF9 /* Build configuration list for PBXNativeTarget "RealDabu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B858A55327FD940F002C7FF9 /* Debug */,
+				B858A55427FD940F002C7FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B858A55527FD940F002C7FF9 /* Build configuration list for PBXNativeTarget "RealDabuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B858A55627FD940F002C7FF9 /* Debug */,
+				B858A55727FD940F002C7FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B858A55827FD940F002C7FF9 /* Build configuration list for PBXNativeTarget "RealDabuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B858A55927FD940F002C7FF9 /* Debug */,
+				B858A55A27FD940F002C7FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B858A52027FD940E002C7FF9 /* Project object */;
+}
