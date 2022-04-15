@@ -8,22 +8,28 @@
 import UIKit
 
 class ClipsDetailViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var PassedImageClips: UIImageView!
+    @IBOutlet weak var PassedTitleClips: UILabel!
+    @IBOutlet weak var PassedTextClips: UILabel!
+    
+    var ImagePindahan = UIImage()
+    var TitlePindahan = UILabel()
+    var TextPindahan = UILabel()
+    
+    //for bookmark
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "Clip Detail"
 
-        // Do any additional setup after loading the view.
+        //code
+        PassedImageClips.image = ImagePindahan
+        PassedTitleClips.text = TitlePindahan.text
+        PassedTextClips.text = TextPindahan.text
+
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

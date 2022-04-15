@@ -8,5 +8,8 @@
 import UIKit
 
 class ClipsCVCell: UICollectionViewCell {
+  
+    @IBOutlet weak var ClipsImage: UIImageView!
+    
     
 }
