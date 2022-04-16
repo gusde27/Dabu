@@ -41,6 +41,7 @@ class VideoPlayerViewController: UIViewController, FloatingPanelControllerDelega
         
         self.VideoView.addSubview(avpController.view)
 
+        //soon lanjutin
     }
     
     
